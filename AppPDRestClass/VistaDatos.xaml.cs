@@ -39,7 +39,7 @@ namespace AppPDRestClass
 
         private void btnPut_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new VistaActualizar());
+            //Navigation.PushAsync(new VistaActualizar());
         }
 
         private async void MyListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -52,6 +52,18 @@ namespace AppPDRestClass
 
 
             //Task task = Navigation.PushAsync(new VistaActualizar(selectList));
+
+
+
+        }
+
+       
+
+        private async void MyListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var detalles = e.Item as Datos;
+            await Navigation.PushAsync(new VistaActualizar(detalles.codigo,detalles.nombre, detalles.apellido, detalles.edad));
+
         }
     }
 }

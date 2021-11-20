@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qUBNrU6jR5mCq/T8YyQD9tfaB8SBmQOasD7uyMWNvagxfAxL370ZYIITNF55ee9vsEngkXYMxskfZtszRPkiiQ==",
+  "dgSpecHash": "El8g1XThgEtksZobs+GaCEdaABQUK/CsbQjIdmQeXjcoipK2ZToApsdD9WKHt7N3ipsG5EJ9YI++4Wnxuzob3A==",
   "success": true,
   "projectFilePath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppPDRestClass\\AppPDRestClass.Android\\AppPDRestClass.Android.csproj",
   "expectedPackageFiles": [
@@ -55,5 +55,26 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.android.material\\1.2.1.1\\xamarin.google.android.material.1.2.1.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.0 to 1.6.1. Reference the package directly from the project to select a different version. \r\n AppPDRestClass.Android -> AppPDRestClass -> Xamarin.Essentials (>= 1.7.0) \r\n AppPDRestClass.Android -> Xamarin.Essentials (>= 1.6.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2244 to 5.0.0.2012. Reference the package directly from the project to select a different version. \r\n AppPDRestClass.Android -> AppPDRestClass -> Xamarin.Forms (>= 5.0.0.2244) \r\n AppPDRestClass.Android -> Xamarin.Forms (>= 5.0.0.2012)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    }
+  ]
 }

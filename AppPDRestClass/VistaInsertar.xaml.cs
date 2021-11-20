@@ -24,6 +24,7 @@ namespace AppPDRestClass
             {
                 WebClient cliente = new WebClient();
                 var parametros = new System.Collections.Specialized.NameValueCollection();
+                
                 parametros.Add("codigo", txtCodigo.Text);
                 parametros.Add("nombre", txtNombre.Text);
                 parametros.Add("apellido", txtApellido.Text);

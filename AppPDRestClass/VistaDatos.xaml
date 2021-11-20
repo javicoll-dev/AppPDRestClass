@@ -10,7 +10,7 @@
 
             </Label>
             
-            <ListView x:Name="MyListView" ItemSelected="MyListView_ItemSelected">
+            <ListView x:Name="MyListView" ItemSelected="MyListView_ItemSelected" ItemTapped="MyListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

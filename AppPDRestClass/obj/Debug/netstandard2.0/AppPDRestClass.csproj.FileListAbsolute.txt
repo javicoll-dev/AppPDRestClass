@@ -2,7 +2,9 @@ C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\net
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\AppPDRestClass.GeneratedMSBuildEditorConfig.editorconfig
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\VistaActualizar.xaml.g.cs
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\VistaDatos.xaml.g.cs
+C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\VistaInsertar.xaml.g.cs
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\AppPDRestClass.AssemblyInfoInputs.cache
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\AppPDRestClass.AssemblyInfo.cs
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\AppPDRestClass.csproj.CoreCompileInputs.cache
@@ -14,5 +16,3 @@ C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\bin\Debug\net
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\bin\Debug\netstandard2.0\ref\AppPDRestClass.dll
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\bin\Debug\netstandard2.0\AppPDRestClass.pdb
 C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\XamlC.stamp
-C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\VistaInsertar.xaml.g.cs
-C:\U-ISRAEL-CARRERA\Desarrollo Movil\AppPDRestClass\AppPDRestClass\obj\Debug\netstandard2.0\VistaActualizar.xaml.g.cs
