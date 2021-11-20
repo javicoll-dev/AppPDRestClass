@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPDRestClass.VistaDatos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Consumir web service Get" FontSize="20" HorizontalOptions="Center"/>
+            <Label>
+                
+
+            </Label>
+            
+            <ListView x:Name="MyListView" ItemSelected="MyListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label x:Name="lblNombre" Text="{Binding nombre}"/>
+                                <Label x:Name="lblApellido" Text="{Binding apellido}"/>
+                                
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Consultar" x:Name="btnGet" Clicked="btnGet_Clicked"/>
+            <Button Text="Insertar" x:Name="btnPost" Clicked="btnPost_Clicked"/>
+            <Button Text="Actualizar" x:Name="btnPut" Clicked="btnPut_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
